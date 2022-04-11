@@ -1,0 +1,433 @@
+<html>
+	<head>
+		<title>The R&#233sum&#233 of Paul A. Hosler</title>
+		<style>
+		<!--
+			body { margin:0; padding:0; }
+			a { text-decoration: none; color: white; }
+			table { color:white; }
+			td.hilite a:link { display: block; width: 170px; background: silver; }
+			td.hilite a:hover { background: silver; color: white;  }
+			td.menu { cursor: default; }
+			.t2 { color:black; }
+			.ul { list-style-image: url(images/darkblue.gif) }
+			.iu { font-style: italic; text-decoration: none }
+			.un { font-style: italic; text-decoration: underline }
+			.confirm { position:absolute; left: 260px; top:140px; height:400px; width:600px; overflow:auto;
+				z-index:0; visibility:hidden; color:#000000; background-color:#FFFFFF; layer-background-color:#FFFFFF }
+			-->
+		</style>
+		<script>
+			<!--
+			//function countDown(interval) {
+			//	if (interval == 0) {
+			//		return;
+			//	}
+			//	else {
+			//	}
+			//}
+
+			function menuOn(currentLink) {
+				currentLink.style.color = "#FFFFFF";
+				currentLink.style.textDecoration = "none";
+			}
+
+			function turnOn(currentLink) {
+				currentLink.style.color = "#000080";
+				currentLink.style.textDecoration = "underline";
+			}
+
+			function turnOff(currentLink) {
+				currentLink.style.color = "#FFFFFF";
+				currentLink.style.textDecoration = "none";
+			}
+
+			function showLayer(layerid) {
+				layer = document.getElementById(layerid);
+				layer.style.visibility = "visible";
+			}
+
+			function hideAll() {
+				introduction.style.visibility = "hidden";
+				summary.style.visibility = "hidden";
+				alphared.style.visibility = "hidden";
+				schlumberger.style.visibility = "hidden";
+				additech.style.visibility = "hidden";
+				consultant.style.visibility = "hidden";
+				west.style.visibility = "hidden";
+				army.style.visibility = "hidden";
+				education.style.visibility = "hidden";
+				references.style.visibility = "hidden";
+				mail.style.visibility = "hidden";
+			}
+																																													
+			function hideLayer(layerid) {
+				if (layerid == "all") {
+					hideAll();
+				}
+				else {
+				layer = document.getElementById(layerid);
+				layer.style.visibility = "hidden";
+				}
+			}
+			//-->
+		</script>
+	</head>
+	<body background = "images/mainpage.png">
+		<div style="position: absolute; top: 0px; left: 0px; z-index: 1">
+			<img src="images/paul.jpg" height = 140 width = 110>
+		</div>
+		<div style="position:relative; top: 0px; margin-left: 110px; right: auto; max-width:1600px; color:white;"> 
+		<table background = "images/topbar.png" width = 100% align = "center"; height = 50 border=0>
+			<tr>
+				<!---		<td align="left" width=100% nowrap></td>  -->
+				<td align = "center" width = 100%><br />Paul A. Hosler</td>
+				<!--- <td align="right" width=100% nowrap></td> --->
+			</tr>
+			<tr>
+				<!--- 	<td align="left" width=100% nowrap></td> --->
+				<td align="center"  width=100% nowrap>Linux System Administrator</td>
+				<!--- aliign="right" width=100% nowrap></td> --->
+			</tr>
+			<tr width=100%>
+				<td align = "center" width = 100% nowrap>Galveston TX, 77550<br /><br /></td>
+				<!--- <td align = "right" width=100%></td> --->
+			</tr>
+			<tr>
+			<td align="left" valign = "top" nowrap>Email: pahosler at gmail.com</td>
+			</tr>
+			</table>
+		</table>
+		</div>
+
+		<div  style="position: absolute; top: 170px; left: 0px; width: 110px; height: 200px">
+			<table style="width:110px" cellpadding=0 cellspacing=0 border=0>
+				<tr><td class=menu>
+						<a href="#introduction"
+						onMouseOver="turnOn(this); hideLayer('history');" onMouseOut="turnOff(this);"
+						onClick="hideLayer('all'); showLayer('introduction');">Introduction</a><br>
+				</td></tr>
+				<tr><td>
+						<a href="#summary"
+						onMouseOver="turnOn(this); hideLayer('history');" onMouseOut="turnOff(this);"
+						onClick="hideLayer('all'); showLayer('summary');">Summary</a><br>
+				</td></tr>
+				<tr><td>
+						<a href="#"
+						onMouseOver="showLayer('history'); turnOn(this);"
+						onMouseOut="turnOff(this);">Professional</a><br>
+				</td></tr>
+				<tr><td>
+						<a href="#education"
+						onMouseOver="turnOn(this); hideLayer('history');" onMouseOut="turnOff(this);"
+						onClick="hideLayer('all'); showLayer('education');">Education</a><br>
+				</td></tr>
+				<tr><td>
+						<a href="#references"
+						onMouseOver="turnOn(this); hideLayer('history');" onMouseOut="turnOff(this);"
+						onClick="hideLayer('all'); showLayer('references');">References</a><br>
+				</td></tr>
+				<tr><td>
+						<a href="#mail"
+						onMouseOver="turnOn(this); hideLayer('history');" onMouseOut="turnOff(this);"
+						onClick="hideLayer('all'); showLayer('mail');">	Request Resume</a><br>
+				</td></tr>
+				<tr><td>
+						<a href="#mail"
+						onMouseOver="turnOn(this); hideLayer('history');" onMouseOut="turnOff(this);"
+						onClick="hideLayer('all'); showLayer('mail');">Contact</a><br>
+				</td></tr>
+			</table>
+		</div>
+
+		<DIV ID="history"
+			style = "position:absolute; left: 105px; top: 215px; width:170px; height:140px; z-index:1;
+			background-color:#8080FF; layer-background-color:#8080FF;
+			visibility:hidden; color:#FFFFFF; border-width:thin; border-style:groove; border-color:#000080">
+
+			<table style="width:170px" cellpadding=0 cellspacing=0 border=0> 
+				
+				<tr><td class="menu"
+						onMouseOver="this.style.backgroundColor='#000080';" 
+						onMouseOut="this.style.backgroundColor='#8080FF';"
+						onClick="hideLayer('history'); hideLayer('all'); showLayer('schlumberger');"
+						onclick="window.location.href='#'">Schlumberger</td></tr>
+		 
+				<tr><td class="menu"
+						onMouseOver="this.style.backgroundColor='#000080';" 
+						onMouseOut="this.style.backgroundColor='#8080FF';"
+						onClick="hideLayer('history'); hideLayer('all'); showLayer('alphared');"
+						onclick="window.location.href='#'">Alpha Red</td></tr>
+		 
+				<tr><td class="menu"
+						onMouseOver="this.style.backgroundColor='#000080';" 
+						onMouseOut="this.style.backgroundColor='#8080FF';" 	
+						onClick="hideLayer('history'); hideLayer('all'); showLayer('additech');"
+						onMouseOver="menuOn(this);" onMouseOut="turnOff(this);"
+						onclick="window.location.href='#'">Additech</td></tr>
+		
+				<tr><td class="menu" 
+						 onMouseOver="this.style.backgroundColor='#000080';" 
+						 onMouseOut="this.style.backgroundColor='#8080FF';"
+						 onClick="hideLayer('history'); hideLayer('all'); showLayer('consultant');"
+						 onclick="window.location.href='#'">Consultant</td></tr>
+		
+				 <tr><td class="menu"
+						 onMouseOver="this.style.backgroundColor='#000080';" 
+						 onMouseOut="this.style.backgroundColor='#8080FF';"
+						 onClick="hideLayer('history'); hideLayer('all'); showLayer('west');"
+						 onclick="window.location.href='#'">West Corporation</td></tr>
+		
+				 <tr><td class="menu" 
+						 onMouseOver="this.style.backgroundColor='#000080';" 
+						 onMouseOut="this.style.backgroundColor='#8080FF';"
+						 onClick="hideLayer('history'); hideLayer('all'); showLayer('army');"
+						 onclick="window.location.href='#'">U.S. Army</td></tr>
+			</table>
+		</div>
+
+		<div id="introduction"
+			style = "position:absolute; left: 260px; top:140px; height:400px; width:600px; 
+			z-index:0; visibility:visible; color:#000000; background-color:#FFFFFF; layer-background-color:#FFFFFF;">
+			
+			<p align="justify">First and foremost, thank you for taking the time to visit my r&#233sum&#233 page.  Please click
+			on contact if you have any questions or comments.
+			<br><br>
+			I have been a user and administrator of Linux since 1999.  My history with computers extends much
+			further into the past. One of my first jobs (in 1986!) was as a professional programmer.  As
+			a user, Linux is definitely my operating system of choice.  I use it for everything; from playing the
+			occasional game, graphics editing, word processing, and yes, even when I create a web page. Maybe some
+			of the stranger things I do as a user blend into system administration, I run my own web, email, and 
+			database servers.  So it's more than a career choice, it's a hobby I certainly enjoy.
+			<br><br>
+			As a system administrator, I have done really small things; set up simple file sharing, print servers, and
+			even configuring a Linux box as a router so a small office could share their internet connection.  I have 
+			also done much larger things; most recently I was the system administrator for 220+ Linux servers.</p>
+		</div>
+
+		<div id="summary"
+			style = "position:absolute; left: 260px; top:140px; height:400px; width:600px; 
+			z-index:0; visibility:hidden; color:#000000; background-color:#FFFFFF; layer-background-color:#FFFFFF;">
+
+			<p> <b>Offering over 20 years of relevant experience,</b> with demonstrated technical and customer-relations strengths: 
+			<ul class="ul">
+				<li><b>Applications:</b> Open Office, MS Office, Gimp, VNC 
+				<li><b>Servers:</b> Apache, postfix, Sendmail, MySQL, PostgreSQL, jabber, DHCP, bind, Samba
+				<li><b>Languages:</b> Javascript, HTML, PHP, Python, Perl
+				<li><b>Platforms:</b> Linux, DOS, Windows
+				<li><b>Networks:</b> Linux, Windows 95,98,2000,XP
+			</ul>
+			<ul class="ul">
+				<li><b>Interpersonal skills -</b> Naturally at ease with others; a people-person; enjoy helping others and
+				sharing knowledge; communicate well with technical and lay people.
+				<li><b>Personal strengths -</b> A quick study; committed to life-long learning in the field of computers
+				and electronics; strong problem-solving and troubleshooting skills; flexible; adaptable; set high personal
+				standards of conduct and performance.
+			</ul>
+		</div>
+
+
+		<div id="schlumberger"
+			style = "position:absolute; left: 260px; top:140px; height:400px; width:600px;
+			z-index:0; visibility:hidden; color:#000000; background-color:#FFFFFF; layer-background-color:#FFFFFF;">
+			<table style="color:#000000" width = 100% align="center" border=0>
+				<tr><td class="iu" nowrap>09/2006 - 01/2007</td><td class="iu" nowrap width=60% align="center">Schlumberger</td>
+					<td class="iu" width=20% nowrap>Sugar Land, TX</td></tr>
+				<tr><td nowrap>Perl Programmer</td><td class="ui" align="center">Linux and HP-UX</td></tr>
+			</table>
+			<ul class="ul">
+				<li>Perl/Shell script programmer
+				<ol style="list-style-type:none; list-style-image:none">
+					Developed:
+					<ol style="list-style-type:none; list-style-image:none">
+						<li>Perl script to monitor file changes on HP-UX and  RHEL servers.
+						<li>Administrator interface for file monitor.
+						<li>Script for file monitor to install on multiple file system structures.
+					</ol>
+					<li>Wrote instructions (perldoc and man page) for file monitor.
+					<li>Supervised installation of file monitor during first round of installations.
+				</ol>
+			</ul>
+				
+		</div>
+		
+		<div id="alphared"
+			style = "position:absolute; left: 260px; top:140px; height:400px; width:600px; 
+			z-index:0; visibility:hidden; color:#000000; background-color:#FFFFFF; layer-background-color:#FFFFFF;">
+			<table style="color:#000000" width = 100% align="center" border=0>
+				<tr><td class="iu" nowrap>06/2006 - 09/2006</td><td class="iu" nowrap align="center">Alpha Red, Inc.</td>
+					<td class="iu" width=20% nowrap>Houston, TX</td></tr>
+				<tr><td nowrap>Hardware Tech Support</td><td class="ui" align="center">Lunux, BSD, and Windows Servers</td></tr>
+			</table>
+			<ul class="ul">
+				<li>Hardware and software support
+				<ol style="list-style-type:none; list-style-image:none">
+					<li>Build custom servers.
+					<li>Install OS and software to company and customer specifications.
+					<li>Repair servers when they develop hardware or software problems.
+					<li>Optimize apache, mysql, and other services.
+					<li>Occasionally debug scripts written in Perl or PHP.
+					<li>Monitor server and network performance using MRTG and Nagios
+				</ol>
+			</ul>
+			
+		</div>
+																								
+		<div id="additech"
+			style = "position:absolute; left: 260px; top:140px; height:400px; width:600px; 
+			z-index:0; visibility:hidden; color:#000000; background-color:#FFFFFF; layer-background-color:#FFFFFF;">
+			<table style="color:#000000" width = 100% align="center" border=0>
+				<tr><td class="iu" nowrap >10/2005 - 05/2006</td><td class="iu" nowrap width=60% align="center">Additech, Inc.</td>
+					<td class="iu" width=20% nowrap>Houston, TX</td></tr>
+				<tr><td nowrap>Linux System Administrator</td><td class="ui" align="center">Red Hat, Debian, Slackware</td></tr>
+			</table>
+			<ul class="ul">
+				<li>System Administrator for 225 Linux Servers
+				<ol style="list-style-type:none; list-style-image:none">
+					<li>1 Red Hat EL4 server
+					<li>1 Debian development server
+					<li>3 Debian lab servers
+					<li>220 Debian remote site servers
+				</ol>
+				<li>Wrote detailed documentation for system operation procedures, and applications
+				<li>Developed applications for remote data gathering using Perl, bash, Flagship (clipper)
+				<li>Rewrote many backoffice applications (bash, Perl, and regular expressions)
+				<li>Created deployment packages so mass updates were possible to remote servers
+				<li>Extensively modified remote server image during development of a "cellular" server project
+				<li>Wrote a daemon in Perl to monitor and reconnect Cisco Linux VPN client for cellular servers
+				<li>Upgraded Digi firmware and drivers for modem banks on Red Hat and Debian servers
+				<li>Developed and maintained multiple server images used to restore or build new site servers
+				<li>Automated the installation process for the server images
+				<li>Resolved many hardware and software issues 
+				<li>Tested and adapted the server polling process for use on XO's digital phone service
+				<li>Assisted lab technicians in testing and building remote servers
+				<li>Participated in development of "business continuence" disaster recovery planning
+				<li>Maintained LDAP server, added and removed users, changed user permissions and access
+			</ul>
+		</div>
+			
+		
+		<div id="west"
+			style = "position:absolute; left: 260px; top:140px; height:400px; width:600px; overflow:auto;
+			z-index:0; visibility:hidden; color:#000000; background-color:#FFFFFF; layer-background-color:#FFFFFF;">
+			<table style="color:#000000" width = 100% align="center" border=0>
+				<tr><td class="iu" nowrap >04/2003 - 08/2003</td><td class="iu" nowrap width=60% align="center">West Corporation</td>
+					<td class="iu" width=20% nowrap>Huntsville, AL</td></tr>
+				<tr><td nowrap>DirecTV, CSR</td><td class="ui" align="center">DirecTV satellite equipment</td></tr>
+			</table>
+			<ul class="ul">
+				<li>Assisted customers with troubleshooting digital satellite receivers of various makes and models including
+				High Definition and TIVO
+				<li>Ordered replacement equipment or scheduled service calls as needed
+				<li>Assisted customers with billing issues and payments
+				<li>Up sold programming through special promotions and suggestive selling of additional programming options
+			</ul>
+
+			
+		</div>
+		
+		<div id="consultant"
+			style = "position:absolute; left: 260px; top:140px; height:400px; width:600px; overflow:auto;
+			z-index:0; visibility:hidden; color:#000000; background-color:#FFFFFF; layer-background-color:#FFFFFF;">
+			<table style="color:#000000" width = 100% align="center" border=0>
+				<tr><td class="iu" nowrap >01/1986 to Present</td><td class="iu" nowrap width=60% align="center">Self-Employed</td>
+					<td class="iu" width=20% nowrap>Houston, TX</td></tr>
+				<tr><td nowrap>Computer Consultant</td><td class="ui" align="center">Linux and Windows</td></tr>
+			</table>
+			<ul class="ui">
+				<li>Troubleshoot and repair computer systems for a variety of business clients and individuals
+				<li>Design and install networks for SOHO clients
+				<li>Build custom desktops and servers to customer specifications
+				<li>Assemble and test components
+				<li>Install and configure software applications and servers
+				<li>Write or customize software applications
+				<li>Create Samba Windows domain logins, roaming profiles, file and printer sharing
+			</ul>
+		</div>
+		
+		<div id="army"
+			style = "position:absolute; left: 260px; top:140px; height:400px; width:600px; overflow:auto;
+			z-index:0; visibility:hidden; color:#000000; background-color:#FFFFFF; layer-background-color:#FFFFFF;">
+			<table style="color:#000000" width = 100% align="center" border=0>
+				<tr><td class="iu" nowrap >07/1991 - 07/1993</td><td class="iu" nowrap width=60% align="center">U.S. Army</td>
+					<td class="iu" width=20% nowrap>Fort Irwin, CA</td></tr>
+				<tr><td nowrap>Tank Turret Technician</td><td class="ui" align="center">MS DOS, dBaseIV, Tanks</td></tr>
+			</table>
+			<ul class="ul">
+				<li>Maintained and repaired a variety of electronic, computer, and mechanical equipment
+				<li>Designed dBase IV applications
+				<li>Trained personnel in data entry tasks
+				<li>Maintained records of troop training activities
+				<li>Prepared inventory reports, required during company change of command, using dBase IV
+			</ul>
+
+		</div>
+		
+		<div id="education"
+			style = "position:absolute; left: 260px; top:140px; height:400px; width:600px; overflow:auto;
+			z-index:0; visibility:hidden; color:#000000; background-color:#FFFFFF; layer-background-color:#FFFFFF;">
+			<table style="color:#000000" width = 100% align="center" border=0>
+				<tr><td class="iu" nowrap >11/1988 - 02/1990</td><td class="iu" nowrap width=60% align="center">MTI</td>
+					<td class="iu" width=20% nowrap>Friendswood, TX</td></tr>
+				<tr><td nowrap>Microcomputer Technical Institute</td><td class="ui" align="center">Computer Repair/Electronics</td></tr>
+			</table>
+			<b>Associate of Occupational Science</b><br>
+			<b><i>GPA: 3.5</b></i><br>
+		</div>
+		
+
+		<div id="references"
+			style = "position:absolute; left: 260px; top:140px; height:400px; width:600px; overflow:auto;
+			z-index:0; visibility:hidden; color:#000000; background-color:#FFFFFF; layer-background-color:#FFFFFF;">
+			<table style="color:#000000" width = 100% align="center" border=0>
+				<tr><td class="un" nowrap >Name</td><td class="un" nowrap width=60% align="center">Business</td>
+					<td class="un" width=20% nowrap>Phone Number</td></tr>
+				<tr><td nowrap>David Shepherd</td><td align="center">Additech, Inc.</td><td nowrap>(281) 988 - 4902</td></tr>
+				<tr><td nowrap>Eddy Lengenhager</td><td align="center">Bay Area Copiers</td><td nowrap>(281) 486 - 2679</td></tr>
+				<tr><td>Rob McGee</td><td align="center">Linux System Admin</td><td>Request only</td></tr>
+			</table>
+		</div>
+		
+		<div id="mail"
+			style = "position:absolute; left: 260px; top:140px; height:400px; width:600px; 
+			z-index:0; visibility:hidden; color:#000000; background-color:#FFFFFF; layer-background-color:#FFFFFF;">
+			<form action = "mailto.php" method = "post">
+				<div style="position: relative; left: 10px; top:10px;z-index: 1">
+					<table class="t2" align="left" border=0 cellpadding=0 cellspacing=0>
+						<tr><td align = "left">First Name:</td><td align="left"><input type="text" name="firstName"></td>
+							<td align = "left">Last Name:</td><td align="left"><input type="text" name="lastName"></td></tr>
+						<tr><td align="left">Company:</td><td align="left"><input type="text" name="company"></td>
+							<td align="left">Phone Number:</td><td align="left"> (<input type="text" name="areacode" size=3 maxlength=3>)
+								<input type="text" name="prefix" size=3 maxlength=3>-
+								<input type="text" name="exchange" size=4 maxlength=4>
+								<tr><td align="left">Email:</td><td align="left"><input type="text" name="contactEmail"></td></tr>
+						</table>
+				</div>
+
+		<div style="position: absolute; left: 120px; top:50px; z-index: 0">
+			<a href=# onMouseOver="showLayer('thought');" onMouseOut="hideLayer('thought');"><img src="images/tux.gif" border=0></img></a>
+			<div id="thought" style = "position:absolute; left: 220px; top: 0px; visibility: hidden; z-index:1">
+				<img src="images/bubble.gif"></img>
+			</div>
+			<div style="position: absolute; left: 2px; top: 160px;
+				background: black; border:2px solid black; z-index:1;">
+
+				<textarea name="body" rows=5 cols=40 wrap=physical></textarea>
+			
+			</div>
+				
+			<div style="position: absolute; left: 90px; top: 350; z-index:1">
+				<table class="t2" align="center" width=50% border=0 cellpadding=0 cellspacing=0>
+					<tr><td><input type="submit" value="Submit" onSubmit="hideLayer('history'); hideLayer('all'); showLayer('thankyou');"></td>
+						<td><input type="reset" value="Clear"></td></tr>
+				</table>
+			</div>
+		</form>
+		</div>
+		</div>
+
+		<div id="thankyou" class="confirm">
+			<h1 align="center">Thank You</h1><br/>
+			<p align="center">Your information has been sent.  You should receive a reply in the next 24 hours.</p>
+		</div>
+	</body>
